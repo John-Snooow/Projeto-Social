@@ -1,0 +1,32 @@
+@charset "UTF-8"
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+body{
+    background: url('../imagens/fundo-madeira.jpg') no-repeat top center; /*Configuração para imagem que está em outra pasta "no-repeat" para não repetir e "top center" para centralizar a cima*/
+    background-size: cover; /*para cobrir a tela toda*/
+    background-attachment: fixed; /*para fixar na tela*/
+}
+main{/*estas são as cpnfg. do conteiner de fora*/
+    position: relative;
+    height: 100vh; 
+}
+section#telefone{ /*estas são as cpnfg. do conteiner de dentro*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /*aqui eu coloque  transform de -50% para centralizar o top e o left que são as duas configues a cima*/
+
+    height: 627px; /*para saber ao Certo a altura e largura da imagem eu posso abrir ela no gimp e ver nas propriedades da imagem*/
+    width: 311px;
+    background: url('../imagens/frame-iphone.png') no-repeat; /*aqui em url para a imagem coloquei entre aspas simples, e ja que as imagens estão armazanadas dentro de outra pasta eu tinha que volta duas vezes colocando "../" só depois disso aparecera as opiçoes para colocar a imagem desejada*/
+}
