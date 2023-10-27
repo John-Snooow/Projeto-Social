@@ -30,3 +30,10 @@ section#telefone{ /*estas são as cpnfg. do conteiner de dentro*/
     width: 311px;
     background: url('../imagens/frame-iphone.png') no-repeat; /*aqui em url para a imagem coloquei entre aspas simples, e ja que as imagens estão armazanadas dentro de outra pasta eu tinha que volta duas vezes colocando "../" só depois disso aparecera as opiçoes para colocar a imagem desejada*/
 }
+iframe#tela{/*estas config são para posicionar a imagem dentro do telefone*/
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
+}
