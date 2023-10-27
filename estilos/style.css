@@ -42,7 +42,7 @@ section#redes-sociais{
 }
 section#redes-sociais img{ /*para fazer alterações nas imagens dos links*/
     width: 50px; /*para deixar os logos pequenos*/
-    margin: 10px; /*para dar um espeço entre eles*/
+    margin: 15px; /*para dar um espeço entre eles*/
     border-radius: 50%; /*para arredondar os botões*/ 
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.600); /*sombra*/
     box-sizing: border-box; /*esta config serve para qundo eu passar o muse sobre o icone ele não se mover e ajudar no destaque*/
@@ -52,4 +52,4 @@ section#redes-sociais img:hover{
     transform: translate(-3px, -3px); /*confg. para botão fazer uma pequena animação (tipo levantar) */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.719); /*ja que o botão vai ter animção assim qua ele levantar a sombra tem que destacar mais uma pouco */
     transition: transform 0.5s, border 0.5s; /*para dar uma Suavização na animação ao passar o mouse em cima dos botões e na borda tambem*/
-}
+} 
