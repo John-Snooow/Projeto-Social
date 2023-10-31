@@ -1,4 +1,4 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
 *{
     margin: 0px;
@@ -43,10 +43,10 @@ iframe#tela{/*estas config são para posicionar a imagem dentro do telefone*/
 section#redes-sociais{
     text-align: right; /*pára a coluna de botões se posicionar à direita da tela*/
 }
-section#redes-sociais img{ /*para fazer alterações nas imagens dos links*/
+section#redes-sociais img{ /*para fazer alterações nas imagens dos botões*/
     width: 50px; /*para deixar os logos pequenos*/
     margin: 15px; /*para dar um espeço entre eles*/
-    border-radius: 50%; /*para arredondar os botões*/ 
+    border-radius: 20%; /*para arredondar os botões em 50% deixaria redondo*/ 
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.600); /*sombra*/
     box-sizing: border-box; /*esta config serve para qundo eu passar o muse sobre o icone ele não se mover e ajudar no destaque*/
 }
